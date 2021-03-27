@@ -5,15 +5,34 @@ const colors = {
 };
 
 const about = {
-  firstName: 'John',
-  lastName: 'Smith',
-  shortDesc: `I'm a web developer located in Irvine, CA.`,
-  longDesc: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec adipiscing tristique risus nec feugiat in fermentum posuere urna. Est placerat in egestas erat imperdiet sed euismod nisi. Tincidunt praesent semper feugiat nibh. Facilisis sed odio morbi quis commodo odio aenean sed. Sit amet venenatis urna cursus eget nunc scelerisque. Pulvinar mattis nunc sed blandit libero volutpat. Elementum facilisis leo vel fringilla est. Adipiscing vitae proin sagittis nisl. Erat imperdiet sed euismod nisi porta lorem mollis. Pellentesque eu tincidunt tortor aliquam nulla. Eget nulla facilisi etiam dignissim diam.',
-    'Sed felis eget velit aliquet sagittis id. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Morbi enim nunc faucibus a pellentesque sit. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Eu tincidunt tortor aliquam nulla facilisi cras fermentum. Feugiat nibh sed pulvinar proin gravida. Erat nam at lectus urna duis convallis. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Viverra mauris in aliquam sem fringilla ut. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Ut tellus elementum sagittis vitae et leo duis ut diam.',
-    'Elementum facilisis leo vel fringilla est. Adipiscing vitae proin sagittis nisl. Erat imperdiet sed euismod nisi porta lorem mollis. Pellentesque eu tincidunt tortor aliquam nulla. Eget nulla facilisi etiam dignissim diam.'
+  firstName: 'Hien',
+  lastName: 'D. Nguyen',
+  shortDesc: [
+    'University of Information Technology, Vietnam National University – Ho Chi Minh city',
+    'Faculty of Computer Science',
+    'Department of Knowledge Engineering and Machine Learning'
   ],
-  email: '',
+  longDesc: [
+    'Research Interested: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.',
+    'My research is developing models for knowledge representations and designing knowledge bases. Besides, I also study reasoning methods, especially for reality applications. I apply results of my study for designing the intelligent systems, such as: Intelligent problem solvers for e-education, knowledge management systems.',
+
+    'EDUCATION\n' +
+    '2020: Ph.D of Computer Science, University of Information Technology, VNU-HCM\n' +
+    '2011: Master of Computer Science, University of Science, VNU-HCM\n' +
+    '2008: Bachelor of Honor Program, Mathematics and Informatics, University of Science, VNU-HCM\n',
+
+    'WORKING\n' +
+    'June 2008 – now: Leturer at Faculty of Computer Science, University of Information Technology, VNU-HCM, Vietnam.\n' +
+    'Jan. 2018 – Feb. 2018: Visiting researcher at Artificial Intelligence lab., Wakayama University, Japan.\n' +
+    'March 2017 – Sept. 2017: Visiting researcher at Inference and Learning lab., National Institute of Informatics (NII), Japan.\n',
+
+    'AWARDS\n' +
+    '1.\tBest Student Paper Award at KSE 2020.\n' +
+    '2.\tBest Demo Clip Award at AI-Socha 2020 (Vietnam).\n' +
+    '3.\tIncentive prize: 2015 Binh Duong Technological Creations Awards.\n' +
+    '4.\tIncentive prize: 2016 Vietnam Fund for Scientific and Technological Creations (VIFOTEC) Award.\n',
+  ],
+  email: 'hiennd@uit.edu.vn',
   github: 'https://github.com',
   linkedIn: 'https://linkedin.com',
 };

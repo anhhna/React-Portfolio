@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { about } from '../../configs';
 import './Home.css';
+import Pdf from '../../resume/resume.pdf';
 
 class Home extends Component {
   render() {
@@ -14,7 +15,9 @@ class Home extends Component {
               {`${about.firstName} ${about.lastName}`}
             </h1>
             <h2 className="subtitle">
-              {about.shortDesc}
+              {
+                about.shortDesc.map((paragraph, index) => <p key={index}>{paragraph}</p>)
+              }
             </h2>
 
             <div className="field is-grouped">
@@ -27,7 +30,7 @@ class Home extends Component {
               </a>
               <a
                 className="button"
-                href="/resume"
+                href={Pdf}
                 target="_blank"
                 rel="noopener noreferrer"
               >
