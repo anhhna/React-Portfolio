@@ -13,7 +13,7 @@ const about = {
     'Department of Knowledge Engineering and Machine Learning'
   ],
   longDesc: [
-    'Research Interested: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.',
+    '<b>Research Interested</b>: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.',
     'My research is developing models for knowledge representations and designing knowledge bases. Besides, I also study reasoning methods, especially for reality applications. I apply results of my study for designing the intelligent systems, such as: Intelligent problem solvers for e-education, knowledge management systems.',
 
     'EDUCATION\n' +

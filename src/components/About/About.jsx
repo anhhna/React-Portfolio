@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { about } from '../../configs';
+import ReactHtmlParser from 'react-html-parser';
 
 import './About.css';
 
@@ -21,7 +22,7 @@ class About extends Component {
                 </div>
                 <div className="column longDescription">
                   {
-                    about.longDesc.map((paragraph, index) => <p key={index}>{paragraph}</p>)
+                    about.longDesc.map((paragraph, index) => <p key={index}>{ReactHtmlParser(paragraph)}</p>)
                   }
                 </div>
               </div>
