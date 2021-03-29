@@ -22,7 +22,8 @@ class About extends Component {
                 </div>
                 <div className="column longDescription">
                   {
-                    about.longDesc.map((paragraph, index) => <p key={index}>{ReactHtmlParser(paragraph)}</p>)
+                    // about.longDesc.map((paragraph, index) => <p className="smallSpacing" key={index}>{ReactHtmlParser(paragraph)}</p>)
+                    <p>{ReactHtmlParser(about.longDesc)}</p>
                   }
                 </div>
               </div>

@@ -13,24 +13,24 @@ const about = {
     'Department of Knowledge Engineering and Machine Learning'
   ],
   longDesc: [
-    '<b>Research Interested</b>: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.',
-    'My research is developing models for knowledge representations and designing knowledge bases. Besides, I also study reasoning methods, especially for reality applications. I apply results of my study for designing the intelligent systems, such as: Intelligent problem solvers for e-education, knowledge management systems.',
+    '<p><b>Research Interested</b>: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.<br>' +
+    'My research is developing models for knowledge representations and designing knowledge bases. Besides, I also study reasoning methods, especially for reality applications. I apply results of my study for designing the intelligent systems, such as: Intelligent problem solvers for e-education, knowledge management systems.</p>' +
 
-    'EDUCATION\n' +
-    '2020: Ph.D of Computer Science, University of Information Technology, VNU-HCM\n' +
-    '2011: Master of Computer Science, University of Science, VNU-HCM\n' +
-    '2008: Bachelor of Honor Program, Mathematics and Informatics, University of Science, VNU-HCM\n',
+    '<p class="smallSpacing" style="color:blue;"><b>EDUCATION</b></p>' +
+    '<p>2020: Ph.D of Computer Science, University of Information Technology, VNU-HCM<br>' +
+    '2011: Master of Computer Science, University of Science, VNU-HCM<br>' +
+    '2008: Bachelor of Honor Program, Mathematics and Informatics, University of Science, VNU-HCM</p>' +
 
-    'WORKING\n' +
-    'June 2008 – now: Leturer at Faculty of Computer Science, University of Information Technology, VNU-HCM, Vietnam.\n' +
-    'Jan. 2018 – Feb. 2018: Visiting researcher at Artificial Intelligence lab., Wakayama University, Japan.\n' +
-    'March 2017 – Sept. 2017: Visiting researcher at Inference and Learning lab., National Institute of Informatics (NII), Japan.\n',
+    '<p class="smallSpacing" style="color:blue;"><b>WORKING</b></p>' +
+    '<p>June 2008 – now: Leturer at Faculty of Computer Science, University of Information Technology, VNU-HCM, Vietnam.<br>' +
+    'Jan. 2018 – Feb. 2018: Visiting researcher at Artificial Intelligence lab., Wakayama University, Japan.<br>' +
+    'March 2017 – Sept. 2017: Visiting researcher at Inference and Learning lab., National Institute of Informatics (NII), Japan.</p>'  +
 
-    'AWARDS\n' +
-    '1.\tBest Student Paper Award at KSE 2020.\n' +
-    '2.\tBest Demo Clip Award at AI-Socha 2020 (Vietnam).\n' +
-    '3.\tIncentive prize: 2015 Binh Duong Technological Creations Awards.\n' +
-    '4.\tIncentive prize: 2016 Vietnam Fund for Scientific and Technological Creations (VIFOTEC) Award.\n',
+    '<p  class="smallSpacing" style="color:blue;"><b>AWARDS</b></p>' +
+    '1. Best Student Paper Award at KSE 2020.<br>' +
+    '2. Best Demo Clip Award at AI-Socha 2020 (Vietnam).<br>' +
+    '3. Incentive prize: 2015 Binh Duong Technological Creations Awards.<br>' +
+    '4. Incentive prize: 2016 Vietnam Fund for Scientific and Technological Creations (VIFOTEC) Award.<br>'
   ],
   email: 'hiennd@uit.edu.vn',
   github: 'https://github.com',

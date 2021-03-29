@@ -166,7 +166,7 @@ class ContactForm extends Component {
                 <input
                   className={`input ${this.state.sender.errorMessage && 'is-danger'}`}
                   type="text"
-                  placeholder="John Smith"
+                  placeholder="Hien D. Nguyen"
                   onChange={this.handleInput}
                   name="sender"
                   value={this.state.sender.value}
@@ -194,7 +194,7 @@ class ContactForm extends Component {
                 <input
                   className={`input ${this.state.email.errorMessage && 'is-danger'}`}
                   type="text"
-                  placeholder="jSmith@email.com"
+                  placeholder="hiennd@uit.edu.vn"
                   onChange={this.handleInput}
                   name="email"
                   value={this.state.email.value}
@@ -222,7 +222,7 @@ class ContactForm extends Component {
                 <input
                   className={`input ${this.state.title.errorMessage && 'is-danger'}`}
                   type="text"
-                  placeholder="Hi John"
+                  placeholder="Hello Mr. Hien"
                   onChange={this.handleInput}
                   name="title"
                   value={this.state.title.value}

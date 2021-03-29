@@ -5,9 +5,12 @@
 
 #About .longDescription {
   text-align: justify;
-  
 }
 
 #About .aboutImage {
   border-radius: 2px;
+}
+
+#About .smallSpacing {
+  line-height: 0;
 }
