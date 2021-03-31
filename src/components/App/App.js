@@ -5,8 +5,8 @@ import Home from '../Home/Home';
 import AboutMe from '../About/About';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
-import Skills from '../Skills/Skills';
 import Footer from '../Footer/Footer'
+import Publications from "../Publications/Publications";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <AboutMe />
       <Projects />
-      <Skills />
+      <Publications />
       <Contact />
       <Footer />
     </div>

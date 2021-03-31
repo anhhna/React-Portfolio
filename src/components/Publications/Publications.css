@@ -1,12 +1,12 @@
-#Projects {
+#Publications {
   text-align: center;
 }
 
-.listProjects {
+.listPublications {
   text-align: justify;
 }
 
-.ProjectsColumn {
+.PublicationsColumn {
   display: block;
   flex-basis: 0;
   flex-grow: 1;
@@ -21,7 +21,7 @@
 }
 /* ripped from materialize Card element */
 
-.mCard {
+.mCardPub {
   position: relative;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
@@ -32,80 +32,80 @@
   border-radius: 2px;
 }
 
-.mCard .mCard-title {
+.mCardPub .mCardPub-title {
   font-size: 24px;
   font-weight: 300;
 }
 
-.mCard .mCard-title.activator {
+.mCardPub .mCardPub-title.activator {
   cursor: pointer;
 }
 
-.mCard.small, .mCard.medium, .mCard.large {
+.mCardPub.small, .mCardPub.medium, .mCardPub.large {
   position: relative;
 }
 
-.mCard.small .mCard-image, .mCard.medium .mCard-image, .mCard.large .mCard-image {
+.mCardPub.small .mCardPub-image, .mCardPub.medium .mCardPub-image, .mCardPub.large .mCardPub-image {
   max-height: 60%;
   overflow: hidden;
 }
 
-.mCard.small .mCard-image + .mCard-content, .mCard.medium .mCard-image + .mCard-content, .mCard.large .mCard-image + .mCard-content {
+.mCardPub.small .mCardPub-image + .mCardPub-content, .mCardPub.medium .mCardPub-image + .mCardPub-content, .mCardPub.large .mCardPub-image + .mCardPub-content {
   max-height: 40%;
 }
 
-.mCard.small .mCard-content, .mCard.medium .mCard-content, .mCard.large .mCard-content {
+.mCardPub.small .mCardPub-content, .mCardPub.medium .mCardPub-content, .mCardPub.large .mCardPub-content {
   max-height: 100%;
   overflow: hidden;
 }
 
-.mCard.small .mCard-action, .mCard.medium .mCard-action, .mCard.large .mCard-action {
+.mCardPub.small .mCardPub-action, .mCardPub.medium .mCardPub-action, .mCardPub.large .mCardPub-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-.mCard.small {
+.mCardPub.small {
   height: 300px;
 }
 
-.mCard.medium {
+.mCardPub.medium {
   height: 400px;
 }
 
-.mCard.large {
+.mCardPub.large {
   height: 500px;
 }
 
-.mCard.horizontal {
+.mCardPub.horizontal {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mCard.horizontal.small .mCard-image, .mCard.horizontal.medium .mCard-image, .mCard.horizontal.large .mCard-image {
+.mCardPub.horizontal.small .mCardPub-image, .mCardPub.horizontal.medium .mCardPub-image, .mCardPub.horizontal.large .mCardPub-image {
   height: 100%;
   max-height: none;
   overflow: visible;
 }
 
-.mCard.horizontal.small .mCard-image img, .mCard.horizontal.medium .mCard-image img, .mCard.horizontal.large .mCard-image img {
+.mCardPub.horizontal.small .mCardPub-image img, .mCardPub.horizontal.medium .mCardPub-image img, .mCardPub.horizontal.large .mCardPub-image img {
   height: 100%;
 }
 
-.mCard.horizontal .mCard-image {
+.mCardPub.horizontal .mCardPub-image {
   max-width: 50%;
 }
 
-.mCard.horizontal .mCard-image img {
+.mCardPub.horizontal .mCardPub-image img {
   border-radius: 2px 0 0 2px;
   max-width: 100%;
   width: auto;
 }
 
-.mCard.horizontal .mCard-stacked {
+.mCardPub.horizontal .mCardPub-stacked {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -122,27 +122,27 @@
   position: relative;
 }
 
-.mCard.horizontal .mCard-stacked .mCard-content {
+.mCardPub.horizontal .mCardPub-stacked .mCardPub-content {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-.mCard.sticky-action .mCard-action {
+.mCardPub.sticky-action .mCardPub-action {
   z-index: 2;
 }
 
-.mCard.sticky-action .mCard-reveal {
+.mCardPub.sticky-action .mCardPub-reveal {
   z-index: 1;
   padding-bottom: 64px;
 }
 
-.mCard .mCard-image {
+.mCardPub .mCardPub-image {
   position: relative;
 }
 
-.mCard .mCard-image img {
+.mCardPub .mCardPub-image img {
   display: block;
   border-radius: 2px 2px 0 0;
   position: relative;
@@ -153,7 +153,7 @@
   width: 100%;
 }
 
-.mCard .mCard-image .mCard-title {
+.mCardPub .mCardPub-image .mCardPub-title {
   color: #fff;
   position: absolute;
   bottom: 0;
@@ -162,38 +162,38 @@
   padding: 24px;
 }
 
-.mCard .mCard-content {
+.mCardPub .mCardPub-content {
   /*padding: 24px;*/
   padding: 12px;
   border-radius: 0 0 2px 2px;
 }
 
-.mCard .mCard-content p {
+.mCardPub .mCardPub-content p {
   margin: 0;
 }
 
-.mCard .mCard-content .mCard-title {
+.mCardPub .mCardPub-content .mCardPub-title {
   display: block;
   line-height: 32px;
   margin-bottom: 8px;
 }
 
-.mCard .mCard-content .mCard-title i {
+.mCardPub .mCardPub-content .mCardPub-title i {
   line-height: 32px;
 }
 
-.mCard .mCard-action {
+.mCardPub .mCardPub-action {
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   position: relative;
   padding: 16px 24px;
 }
 
-.mCard .mCard-action:last-child {
+.mCardPub .mCardPub-action:last-child {
   border-radius: 0 0 2px 2px;
 }
 
-.mCard .mCard-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+.mCardPub .mCardPub-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 24px;
   -webkit-transition: color .3s ease;
@@ -201,11 +201,11 @@
   text-transform: uppercase;
 }
 
-.mCard .mCard-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+.mCardPub .mCardPub-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
 }
 
-.mCard .mCard-reveal {
+.mCardPub .mCardPub-reveal {
   padding: 24px;
   position: absolute;
   background-color: #fff;
@@ -218,12 +218,12 @@
   display: none;
 }
 
-.mCard .mCard-reveal .mCard-title {
+.mCardPub .mCardPub-reveal .mCardPub-title {
   cursor: pointer;
   display: block;
 }
 
-.cardOverride {
+.cardPubOverride {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
