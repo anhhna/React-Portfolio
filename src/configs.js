@@ -39,107 +39,41 @@ const about = {
 
 const projects = [
   {
-    name: 'Calculator',
     desc: '[1] <i>Design an engine for searching about the knowledge of programming based on knowledge base</i>, funded by Vietnam National University – Ho Chi Minh city, DSC2021-26-07, 2021 – 2023, PI.',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'Student Grade Table',
     desc: '[2] <i>In-depth social network influence and advocacy measurement</i>, funded by VinTech Fund, DA132-15062019, Oct. 2019 – April 2021, PI.',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'When In Rome',
     desc: '[3] <i>Build a knowledge model of combining relations and operators</i>, funded by Vietnam National University – Ho Chi Minh city, C2019-26-01, March 2019 – Sept. 2020, PI. Finished: May. 2020',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'When In Rome',
     desc: '[4] <i>Criteria of a knowledge model for an intelligent problems solver in education</i>, funded by University of Information Technology (VNU-HCM), D1-2018-03, Oct. 2018 – Oct. 2019, PI. Finished: May. 2019',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'When In Rome',
     desc: '[5] <i>Algebraic approach for Knowledge domain have Operators</i>, funded by Vietnam National University – Ho Chi Minh city, C2016-26-06, May 2016 – Nov. 2017, PI. Finished: Jan. 2018',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'When In Rome',
     desc: '[6] <i>Knowledge  model about relations and Application</i>, funded by University of Information Technology (VNU-HCM), D2013-01, Sep. 2013 – March 2015, PI. Finished.',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
   {
-    name: 'When In Rome',
     desc: '[7] <i>Reasoning method on COKB model using Sample Problems in knowledge domain about Plane Geometry</i>, funded by University of Information Technology (VNU-HCM), C2012-01, March 2012 – March 2013, PI. Finished.',
-    image: 'https://picsum.photos/400/410',
-    demo: '',
-    source: '',
   },
 ];
 
-const skills = [{
-    skill: 'HTML5',
-    link: 'https://cdn.svgporn.com/logos/html-5.svg',
+const publications = [
+  {
+    category: 'Books',
+    desc: '[1] <i>Design an engine for searching about the knowledge of programming based on knowledge base</i>, funded by Vietnam National University – Ho Chi Minh city, DSC2021-26-07, 2021 – 2023, PI.',
   },
   {
-    skill: 'CSS3',
-    link: 'https://cdn.svgporn.com/logos/css-3.svg',
+    category: 'Books',
+    desc: '[2] <i>In-depth social network influence and advocacy measurement</i>, funded by VinTech Fund, DA132-15062019, Oct. 2019 – April 2021, PI.',
   },
-  {
-    skill: 'Javascript',
-    link: 'https://cdn.svgporn.com/logos/javascript.svg',
-  },
-  {
-    skill: 'jQuery',
-    link: 'https://cdn.svgporn.com/logos/jquery.svg',
-  },
-  {
-    skill: 'MySQL',
-    link: 'https://cdn.svgporn.com/logos/mysql.svg',
-  },
-  {
-    skill: 'Express',
-    link: 'https://cdn.svgporn.com/logos/express.svg',
-  },
-  {
-    skill: 'React',
-    link: 'https://cdn.svgporn.com/logos/react.svg',
-  },
-  {
-    skill: 'Node',
-    link: 'https://cdn.svgporn.com/logos/nodejs.svg',
-  },
-  {
-    skill: 'AWS',
-    link: 'https://cdn.svgporn.com/logos/aws.svg',
-  },
-  {
-    skill: 'PHP',
-    link: 'https://cdn.svgporn.com/logos/php.svg',
-  },
-  {
-    skill: 'Bootstrap',
-    link: 'https://cdn.svgporn.com/logos/bootstrap.svg',
-  },
-  {
-    skill: 'Git',
-    link: 'https://cdn.svgporn.com/logos/git-icon.svg',
-  }];
+];
 
 export default {
-  colors, about, projects, skills
+  colors, about, projects, publications
 }
 
-export { colors, about, projects, skills };
+export { colors, about, projects, publications };

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import {about, projects} from '../../configs';
+import { publications } from '../../configs';
 import './Publications.css';
 import ReactHtmlParser from 'react-html-parser';
 
-class Projects extends Component {
-  generateProjectsPanel = () => {
-    return projects.map((project, index) => {
-      const { name, desc, image, demo, source } = project;
+class Publications extends Component {
+  generatePublicationsPanel = () => {
+    return publications.map((publication, index) => {
+      const { category, desc } = publication;
 
       return (<div className="PublicationsColumn" key={index} >
         <div className="mCardPub shadow cardPubOverride">
@@ -24,10 +24,9 @@ class Projects extends Component {
         <section className="hero">
           <div className="hero-body">
             <div className="container">
-              <h1 className="title">Projects</h1>
-              {/*<div className="content columns">*/}
+              <h1 className="title">Publications</h1>
               <div className="listPublications">
-                {this.generateProjectsPanel()}
+                {this.generatePublicationsPanel()}
               </div>
             </div>
           </div>
@@ -37,4 +36,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Publications;
