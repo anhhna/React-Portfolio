@@ -4,6 +4,11 @@ import './Publications.css';
 import ReactHtmlParser from 'react-html-parser';
 
 class Publications extends Component {
+  groupPublications = publications.reduce((r, a) => {
+    r[a.category] = [...r[a.category] || [], a];
+    return r;
+   }, {});
+
   generatePublicationsPanel = () => {
     return publications.map((publication, index) => {
       const { category, desc } = publication;

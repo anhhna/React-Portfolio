@@ -64,11 +64,15 @@ const projects = [
 const publications = [
   {
     category: 'Books',
-    desc: '[1] <i>Design an engine for searching about the knowledge of programming based on knowledge base</i>, funded by Vietnam National University – Ho Chi Minh city, DSC2021-26-07, 2021 – 2023, PI.',
+    desc: '[1] Nhon V. Do, Hien D. Nguyen, Knowledge-based Systems, ISBN: 978-604-73-5399-6, Publisher of VNU-HCM (2017) (Vietnamese).',
   },
   {
     category: 'Books',
-    desc: '[2] <i>In-depth social network influence and advocacy measurement</i>, funded by VinTech Fund, DA132-15062019, Oct. 2019 – April 2021, PI.',
+    desc: '[2] Hien D. Nguyen, Diem Nguyen, Van L. Ho, Workbook: Artificial Intelligence, ISBN: 978-604-73-4106-1, Publisher of VNU-HCM (2016) (Vietnamese).',
+  },
+  {
+    category: 'Books',
+    desc: '[3]	Hien D. Nguyen, Van L. Ho, Diem Nguyen, Workbook: Symbolic Programming in Artificial Intelligence, ISBN: 978-604-73-2658-7, Publisher of VNU-HCM (2015) (Vietnamese).',
   },
 ];
 
