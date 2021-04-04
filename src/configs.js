@@ -63,16 +63,64 @@ const projects = [
 
 const publications = [
   {
-    category: 'Books',
-    desc: '[1] Nhon V. Do, Hien D. Nguyen, Knowledge-based Systems, ISBN: 978-604-73-5399-6, Publisher of VNU-HCM (2017) (Vietnamese).',
+    category: '<b>Books</b>',
+    desc: '[1] Nhon V. Do, Hien D. Nguyen, <i>Knowledge-based Systems</i>, ISBN: 978-604-73-5399-6, Publisher of VNU-HCM (2017) (Vietnamese).',
   },
   {
-    category: 'Books',
-    desc: '[2] Hien D. Nguyen, Diem Nguyen, Van L. Ho, Workbook: Artificial Intelligence, ISBN: 978-604-73-4106-1, Publisher of VNU-HCM (2016) (Vietnamese).',
+    category: '<b>Books</b>',
+    desc: '[2] Hien D. Nguyen, Diem Nguyen, Van L. Ho, <i>Workbook: Artificial Intelligence</i>, ISBN: 978-604-73-4106-1, Publisher of VNU-HCM (2016) (Vietnamese).',
   },
   {
-    category: 'Books',
-    desc: '[3]	Hien D. Nguyen, Van L. Ho, Diem Nguyen, Workbook: Symbolic Programming in Artificial Intelligence, ISBN: 978-604-73-2658-7, Publisher of VNU-HCM (2015) (Vietnamese).',
+    category: '<b>Books</b>',
+    desc: '[3]	Hien D. Nguyen, Van L. Ho, Diem Nguyen, <i>Workbook: Symbolic Programming in Artificial Intelligence</i>, ISBN: 978-604-73-2658-7, Publisher of VNU-HCM (2015) (Vietnamese).',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[1] Hien D. Nguyen, Chiaki Sakama, Taisuke Sato, Katsumi Inoue, “<i>An Efficient Reasoning Method on Logic Programming using Partial Evaluation in Vector Spaces</i>”, Journal of Logic and Computation (JLC), 2021. SCIE',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[2] Hieu Nguyen, Vinh P. Tran, Vuong T. Pham, Hien D. Nguyen, <i>Design a learning model of mobile vision to detect diabetic retinopathy based on the improvement of MobileNetV2</i>, Int. J. Digital Enterprise Technology (IJDET), 2021. In publishing.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[4] Hien D. Nguyen, Dung A. Tran, Huan P. Do, Vuong T. Pham, <em>Design an intelligent system to automatically tutor the method for solving problems</em>, International Journal of Integrated Engineering (IJIE), Vol. 12, No. 7, pp. 211 &ndash; 223, (2020). Scopus',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
+  },
+  {
+    category: '<b>International Journals</b>',
+    desc: '[3] Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <i>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations<i>, Engineering Letters, Vol. 28, No. 4, pp. 1108 – 1117, (2020). ESCI, Scopus.',
   },
 ];
 
