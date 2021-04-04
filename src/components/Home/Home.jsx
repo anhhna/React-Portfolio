@@ -10,7 +10,7 @@ class Home extends Component {
         <section
           className="hero is-large is-fullheight-with-navbar sectionOverride"
         >
-          <div style={{ width: '40%' }}>
+          <div className="myTitle">
             <h1 className="title">
               {`${about.firstName} ${about.lastName}`}
             </h1>

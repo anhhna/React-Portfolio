@@ -25,3 +25,7 @@ yarn-error.log*
 .firebase/
 .firebaserc
 firebase.json
+
+.github
+.idea
+yarn.lock

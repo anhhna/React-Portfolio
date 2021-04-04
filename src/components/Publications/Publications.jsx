@@ -1,40 +1,47 @@
-import React, { Component } from 'react';
-import {about, projects} from '../../configs';
+import React, {Component} from 'react';
+import {publications} from '../../configs';
 import './Publications.css';
 import ReactHtmlParser from 'react-html-parser';
 
-class Projects extends Component {
-  generateProjectsPanel = () => {
-    return projects.map((project, index) => {
-      const { name, desc, image, demo, source } = project;
+class Publications extends Component {
+    generatePublicationsPanel = () => {
+        const rows = [];
 
-      return (<div className="PublicationsColumn" key={index} >
-        <div className="mCardPub shadow cardPubOverride">
-          <div className="mCardPub-content" style={{ flex: '1 1 auto' }}>
-            <p>{ReactHtmlParser(desc)}</p>
-          </div>
-        </div>
-      </div>);
-    })
-  }
+        for (let i = 0; i < publications.length; i++)
+        {
+            const {category, desc} = publications[i]
+            rows.push(<p><b>{ReactHtmlParser(category)}</b></p>)
+            for (let j = 0; j < desc.length; j++)
+            {
+                rows.push(<div className="PublicationsColumn" key={i + j}>
+                    <div className="mCardPub shadow cardPubOverride">
+                        <div className="mCardPub-content" style={{flex: '1 1 auto'}}>
+                            <p>[{j + 1}] {ReactHtmlParser(desc[j])}</p>
+                        </div>
+                    </div>
+                </div>)
+            }
+        }
 
-  render() {
-    return (
-      <div id="Publications">
-        <section className="hero">
-          <div className="hero-body">
-            <div className="container">
-              <h1 className="title">Projects</h1>
-              {/*<div className="content columns">*/}
-              <div className="listPublications">
-                {this.generateProjectsPanel()}
-              </div>
+        return rows
+    }
+
+    render() {
+        return (
+            <div id="Publications">
+                <section className="hero">
+                    <div className="hero-body">
+                        <div className="container">
+                            <h1 className="title">Publications</h1>
+                            <div className="listPublications">
+                                {this.generatePublicationsPanel()}
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </div>
-        </section>
-      </div>
-    );
-  }
+        );
+    }
 }
 
-export default Projects;
+export default Publications;

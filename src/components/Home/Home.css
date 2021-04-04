@@ -9,6 +9,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #Home .myTitle {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #Home .myTitle {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   #Home .decorations {
     display: none;
   }
