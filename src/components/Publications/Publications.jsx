@@ -4,24 +4,22 @@ import './Publications.css';
 import ReactHtmlParser from 'react-html-parser';
 
 class Publications extends Component {
-    groupPublications = publications.reduce((r, a) => {
-        r[a.category] = [...r[a.category] || [], a];
-        return r;
-    }, {});
-
     generatePublicationsPanel = () => {
         const rows = [];
-        for (const groupPublication in this.groupPublications) {
-          rows.push(<p>{ReactHtmlParser(groupPublication)}</p>)
-            for (let i = 0; i < this.groupPublications[groupPublication].length; i++) {
-                const {_, desc} = this.groupPublications[groupPublication][i]
-                rows.push(<div className="PublicationsColumn" key={groupPublication + i}>
-                              <div className="mCardPub shadow cardPubOverride">
-                                  <div className="mCardPub-content" style={{flex: '1 1 auto'}}>
-                                      <p>{ReactHtmlParser(desc)}</p>
-                                  </div>
-                              </div>
-                          </div>)
+
+        for (let i = 0; i < publications.length; i++)
+        {
+            const {category, desc} = publications[i]
+            rows.push(<p><b>{ReactHtmlParser(category)}</b></p>)
+            for (let j = 0; j < desc.length; j++)
+            {
+                rows.push(<div className="PublicationsColumn" key={i + j}>
+                    <div className="mCardPub shadow cardPubOverride">
+                        <div className="mCardPub-content" style={{flex: '1 1 auto'}}>
+                            <p>[{j + 1}] {ReactHtmlParser(desc[j])}</p>
+                        </div>
+                    </div>
+                </div>)
             }
         }
 
