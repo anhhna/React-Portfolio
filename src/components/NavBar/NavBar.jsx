@@ -13,7 +13,7 @@ const NavBarItems = [
     text: 'Projects',
   },
   {
-    text: 'Skills',
+    text: 'Publications',
   },
   {
     text: 'Contact',
