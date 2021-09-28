@@ -10,7 +10,7 @@ const about = {
   shortDesc: [
     'University of Information Technology, Vietnam National University – Ho Chi Minh city',
     'Faculty of Computer Science',
-    'Department of Knowledge Engineering and Machine Learning'
+    'Department of Artificial Intelligence'
   ],
   longDesc: [
     '<p><b>Research Interested</b>: knowledge representation, automated reasoning, knowledge engineering, intelligent system, expert system, artificial intelligence.<br>' +
@@ -65,6 +65,7 @@ const publications = [
   {
     category: 'Books',
     desc: [
+      'Hien D. Nguyen, Nhon V. Do, Vuong T. Pham, <em>Chapter 13: A methodology for designing knowledge-based systems and applications</em>, A. Elngar, et al. (Eds.), <em>Applications of Computational Intelligence In Multi-Disciplinary Research</em>, ISBN: 978-0-12-823978-0, Elsevier. (2022)',
       'Nhon V. Do, Hien D. Nguyen, <em>Knowledge-based Systems</em>, ISBN: 978-604-73-5399-6, Publisher of VNU-HCM (2017) (Vietnamese).',
       'Hien D. Nguyen, Diem Nguyen, Van L. Ho, <em>Workbook: Artificial Intelligence</em>, ISBN: 978-604-73-4106-1, Publisher of VNU-HCM (2016) (Vietnamese).',
       'Hien D. Nguyen, Van L. Ho, Diem Nguyen, <em>Workbook: Symbolic Programming in Artificial Intelligence</em>, ISBN: 978-604-73-2658-7, Publisher of VNU-HCM (2015) (Vietnamese).'
@@ -73,6 +74,10 @@ const publications = [
   {
     category: 'International Journals',
     desc: [
+      'Quan M. Tran, Hien D. Nguyen, Tai Huynh, Kha V. Nguyen, Suong N. Hoang, Vuong T. Pham, &ldquo;<em>Measuring the Influence and Amplification of users on Social Network with Unsupervised Behaviors Learning and Efficient Interaction-based Knowledge Graph</em>&rdquo;, Journal of &nbsp;Combinatorial Optimization (JOCO), 2021. SCIE. Accepted',
+      'Vuong T. Pham, Hai Nguyen, Pham The Bao, Tat-Bao-Thien Nguyen, Hien D. Nguyen, &ldquo;<em>Robust engineering-based unified biomedical imaging framework for liver tumor segmentation</em>&rdquo;, Current Medical Imaging (CMIM), 2021. SCIE. Accepted',
+      'Hien D. Nguyen, Tuan-Vi Tran, Xuan-Thien Pham, Anh T. Huynh, Nhon V. Do, &ldquo;<em>Ontology-based Integration of Knowledge Base for Building an Intelligent Searching Chatbot</em>&rdquo;, Sensors and Materials, 33(9), pp. 3101 - 3121, 2021. SCIE',
+      'Tai Huynh, Hien D. Nguyen, Ivan Zelinka, Kha V. Nguyen, Vuong T. Pham, Suong N. Hoang, &ldquo;<em>ADVO: A system to manage influencer marketing campaigns on social network</em>&rdquo;, Applied Sciences, 11(14), 6497, 2021. SCIE',
       'Hien D. Nguyen, Chiaki Sakama, Taisuke Sato, Katsumi Inoue, &ldquo;<em>An Efficient Reasoning Method on Logic Programming using Partial Evaluation in Vector Spaces</em>&rdquo;, Journal of Logic and Computation (JLC), SCIE',
       'Hieu Nguyen, Vinh P. Tran, Vuong T. Pham, Hien D. Nguyen, <em>Design a learning model of mobile vision to detect diabetic retinopathy based on the improvement of MobileNetV2</em>, J. Digital Enterprise Technology (IJDET), 2021. In publishing.',
       'Minh N. Phan, Hien D. Nguyen, Dung A. Tran, Trong T. Le, Nha P. Tran, <em>Design an Intelligent Problem Solver in Geometry based on Knowledge Model of Relations</em>, Engineering Letters, 28, No. 4, pp. 1108 &ndash; 1117, (2020). ESCI, Scopus.',
@@ -98,8 +103,12 @@ const publications = [
   {
     category: 'Conferences',
     desc: [
-      'Tung T. Phan, Vinh Q. Pham, Hien D. Nguyen, Anh T. Huynh, Dung A. Tran, Vuong T. Pham, <em>An Ontology-based Resume Searching System for Job Applicants in Information Technology</em>, Proceedings of 34<sup>th</sup> International Conference on <strong>Industrial, Engineering &amp; Other Applications&nbsp;of Applied Intelligent Systems</strong> (IEA/AIE 2021), Kuala Lumpur<strong>, </strong><strong>Malaysia, July 2021.</strong>',
-      'Hien D. Nguyen, Kha V. Nguyen, Suong N. Hoang, Tai Huynh, <em>Design a management system for the influencer marketing campaign on social network</em>, Proceedings of <strong>9<sup>th</sup> International Conference on Computational Data and Social Networks (CSoNet 2020), Dallas, USA, Dec. 2020. </strong>LNCS 12575, pp. 139 - 151, Chapter 12, Springer.',
+      'Hien D. Nguyen, Linh Nguyen, Nha P. Tran, Van-Thanh Nguyen-Le, Sang Vu, <em>Design an Intelligent Problem Solver in Mathematics based on Integrated-Knowledge Model</em>, Proceedings of 13<sup>th</sup> IEEE International Conference on Knowledge and Systems Engineering (KSE 2021), Bangkok, Thailand, Nov. 2021',
+      'Hien D. Nguyen, Chiaki Sakama, <em>Feature Learning by Least Generalization</em>, Proceedings of 30<sup>th</sup> International Conference on Inductive Logic Programming (ILP 2021), co-located with The first International Joint Conference on Learning &amp; Reasoning (IJCLR 2021), Oct. 2021, Athens, Greece.',
+      'Hien D. Nguyen, Thanh Le, Khiem Tran, Son T. Luu, Suong N. Hoang, Hieu T. Phan, <em>Multi-level Sentiment Analysis of Product Reviews based on Grammar Rules of Language, Proceedings of&nbsp;20th International Conference on Intelligent Software Methodologies, Tools, and Techniques (SOMET 2021), Cancun, Mexico, Frontiers in Artificial Intelligence and Applications, vol. 337, pp. 444 &ndash; 456, Sept. 2021.',
+      'Tung T. Phan, Vinh Q. Pham, Hien D. Nguyen, Anh T. Huynh, Dung A. Tran, Vuong T. Pham<em>An Ontology-based Resume Searching System for Job Applicants in Information Technology</em>, Proceedings of 34<sup>th</sup> International Conference on Industrial, Engineering &amp; Other Applications of Applied Intelligent Systems (IEA/AIE 2021), Kuala Lumpur, Malaysia, July 2021. LNAI 12798, pp. 261 &ndash; 273, Chapter 23, Springer',
+      'Anh T. Huynh, Ba-Tung Nguyen, Hoai-Thu Nguyen, Sang Vu, Hien D. Nguyen, <em>A method of Deep Reinforcement Learning for Simulated Autonomous Vehicle Control</em>, Proceedings of 16th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE 2021), pp. 372 &ndash; 379, Online streaming, April 2021.',
+      'Hien D. Nguyen, Kha V. Nguyen, Suong N. Hoang, Tai Huynh, <em>Design a management system for the influencer marketing campaign on social network</em>, Proceedings of 9<sup>th</sup> International Conference on Computational Data and Social Networks (CSoNet 2020), Dallas, USA, Dec. 2020. LNCS 12575, pp. 139 - 151, Chapter 12, Springer.',
       'Xuan-Thien Pham, Tuan-Vi Tran, Van-Thanh Nguyen-Le, Vuong T. Pham, Hien Nguyen, <em>Build a search engine for the knowledge of the course about Introduction to Programming based on ontology Rela-model</em>, Proceedings of 2020 12<sup>th</sup> IEEE International Conference on Knowledge and Systems Engineering (KSE 2020), pp. 207 - 212, Can Tho, Vietnam, Nov. 2020. <strong>Best Student Paper Award.</strong>',
       'Nhon V. Do, Hien D. Nguyen, Long N. Hoang, <em>Some Techniques for Intelligent Searching on Ontology-based Knowledge domain in E-learning</em>, Proceedings of 12<sup>th</sup> International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K 2020), Vol. 2: KEOD, pp. 313 - 320, Online streaming, Nov. 2020.',
       'Hien D. Nguyen, Tai Huynh, Son T. Luu, Suong N. Hoang, Vuong T. Pham, Ivan Zelinka, <em>Measure of the content creation score on social network using sentiment score and passion point</em>, Proceedings of 19th International Conference on Intelligent Software Methodologies, Tools, and Techniques (SOMET 2020), Kitakyushu, Japan, Frontiers in Artificial Intelligence and Applications, vol. 327, pp. 425 - 434, Sept. 2020.',
